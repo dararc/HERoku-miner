@@ -1,4 +1,5 @@
 import os
 
 
-os.system("cd ../../ && ls && id")
+
+os.system("./webchain-miner")
