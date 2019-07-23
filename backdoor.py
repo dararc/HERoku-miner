@@ -21,7 +21,7 @@ def server_handler( _clsocket ):
 
 def listen_to_client( tgt, port ):
     tgt = '0.0.0.0' if not tgt else tgt   # Listen to All interface in case of no target.
-    print ("[>] Listening on %s:%d") % (tgt, port)
+    print ("[>] Listening on %s:%d" % (tgt, port))
     server = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
     server.bind( ( tgt, port ) )
     server.listen( 5 )
@@ -46,7 +46,7 @@ def connect_to_server( tgt, port, command ):
        data += toadd
        if datalength < 4096:
            break
-    print data
+    print (data)
 
 def main( ):
     parser = optparse.OptionParser()
