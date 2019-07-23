@@ -28,7 +28,7 @@ def listen_to_client( tgt, port ):
 
     while True:
         (cl_socket, cl_address) = server.accept()  # cl denotes to the word "Cllient"
-        print "[<] Received Connection From %s" % ( cl_address[0] )
+        print ("[<] Received Connection From %s" % ( cl_address[0] ))
         t = threading.Thread( target=server_handler, args=( cl_socket, ) )
         t.daemon = True
         t.start()
