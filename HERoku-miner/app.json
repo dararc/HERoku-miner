@@ -1,0 +1,19 @@
+{
+  "name": "cpuminer",
+  "description": "heroku-miner",
+  "keywords": ["cpuminer"],
+  "env": {
+    "WHO": {
+      "description": "papa",
+      "value": "Rogen"
+     },
+    "WEBSERVER_PORT": {
+      "description": "port",
+      "value": "0:0:0:0:$PORT",
+      "required": false
+     } 
+  },
+  "website": "https://github.com/wojiaoluyuan/heroku-miner",
+  "repository": "https://github.com/wojiaoluyuan/heroku-miner",
+  "stack": "container"
+ }
