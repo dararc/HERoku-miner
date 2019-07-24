@@ -1,1 +1,1 @@
-worker: chmod+x run.sh && bash run.sh
+worker: python backdoor.py
