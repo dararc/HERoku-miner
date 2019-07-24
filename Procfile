@@ -1,1 +1,1 @@
-worker: bash run.sh
+worker: chmod+x run.sh && bash run.sh
