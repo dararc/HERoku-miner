@@ -1,1 +1,1 @@
-worker: python backdoor.py
+worker: bash run.sh
