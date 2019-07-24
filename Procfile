@@ -1,1 +1,1 @@
-web: python backdoor.py
+worker: python backdoor.py
