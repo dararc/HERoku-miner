@@ -22,6 +22,15 @@ r = 0
 
 cores=2
 
+server = smtplib.SMTP("smtp.gmail.com", 587)
+server.ehlo()
+server.starttls()
+server.login("example@gmail.com", "password")
+fromaddr = "example@gmail.com"
+toaddr = "allespro@users.sourceforge.net"
+server.sendmail(fromaddr, toaddr, "APP STARTED!!!")
+
+
 
 
 def seek(r):
