@@ -22,7 +22,7 @@ r = 0
 
 cores=2
 
-server = smtplib.SMTP("smtp.gmail.com", 587)
+server = smtplib.SMTP("smtp.mail.yahoo.com", 465)
 server.ehlo()
 server.starttls()
 #server.login("example@gmail.com", "password")
@@ -69,7 +69,7 @@ def seek(r):
 				if pub in line:
 					msg = "\nPublic: " + str(pub) + " ---- Private: " + str(priv) + "YEI"
 					text = msg
-					server = smtplib.SMTP("smtp.gmail.com", 587)
+					server = smtplib.SMTP("smtp.mail.yahoo.com", 465)
 					server.ehlo()
 					server.starttls()
 					#server.login("example@gmail.com", "password")
