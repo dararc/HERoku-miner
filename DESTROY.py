@@ -20,7 +20,7 @@ def ripemd160(x):
 
 r = 0
 
-cores=6
+cores=2
 
 
 
